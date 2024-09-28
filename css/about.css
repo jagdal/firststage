@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*font family 
+
+font-family: "Noto Nastaliq Urdu", serif;
+
+*/
+
+/* nav bare edite */
+@font-face {
+    font-family: font;
+    src: url(/font-arabic/JF-Flat-Regular.ttf);
+}
+
+@font-face {
+    font-family: arabic;
+    src: url(/font-arabic/Droid\ Sans\ Arabic.ttf);
+    
+}
+
+@font-face{
+    font-family: kufi;
+    src: url(/font-arabic/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+.logo{
+    background-color: #000;
+}
+.logo h1{
+    font-size: 32px;
+    font-family: arabic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #ffff00;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+nav ul{
+    background-color: #38333a;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    color: white;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+}
+#acc{
+    color: #ffff00;
+}
+.why{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 310px;
+}
+.why li{
+    margin: 0 30px;
+    font-size: 18px;
+    font-family: font;
+    font-weight: 400;
+    font-size: 18px;
+}
+.sub-about{
+    display: none;
+}
+.sub-about li{
+    padding: 2px;
+}
+ul li:hover .sub-about{
+    display: block;
+    position: absolute; 
+    height: auto;
+    z-index: 900;   
+    
+}
+
+i{
+    font-size: 16px;
+}
+
+
+/* finisiih navbar*/
+
+.container-about{
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-gap: 20px;
+    place-items: center;
+}
+
+section .about h1{
+    width: 100%;
+}
+#font-about{
+    width: 90%;
+    font-size: 22px;
+    font-family: font;
+}
+main{
+    margin: 0 40px;
+}
+
+.container-quote{
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-gap: 30px;
+}
+.quote{
+    height: 450px;
+    position: relative;
+}
+.quote .font-quote{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#left{
+    position: absolute;
+    left: 30%;
+}
+@font-face {
+    font-family: quote;
+    src: url(/KacstArt.ttf);
+}
+.font-quote h1{
+    margin: 20px 0;
+    font-family: quote;
+}
+
+.quote i{
+    font-size: 28px;
+}
+.container-quote #img{
+    background-color: #eedf0a;
+    background-image: url("/img/logocdt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+}
+section h1:first-child {
+    color: #ffff00;
+    font-size: 32px;
+    font-family: font;
+    font-weight: 700;
+    margin-right: 32%;
+    padding: 40px 0;
+}
+
+.bureau img{
+    margin-left: 200px;  
+    margin-top: 50px;  
+    margin-bottom: 50px;  
+}
+
+/*debut footer*/
+
+footer{
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left ul li{
+    margin:auto 40px ;
+}
+.left i{
+    margin: auto 10px;
+}
+#right {
+    border-left: 2px solid white;
+    padding-left: 10px;
+
+}
+.copy{
+    display: flex ;
+    
+}
+.copy h1{
+    margin:  30px;
+    font-size: 22px;
+}
+
+
+.copy h1{
+    font-family: font;
+    font-size: 18px;
+}
+.copy i {
+    color: red;
+    margin-right: 10px;
+    border-right: 2px solid #e8bf33;
+}
+
+.left li{
+    font-family: arabic;
+    font-size: 18px;
+}

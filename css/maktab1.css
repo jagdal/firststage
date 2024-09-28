@@ -1,0 +1,267 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav bare edite */
+@font-face {
+    font-family: font;
+    src: url(/font-arabic/JF-Flat-Regular.ttf);
+}
+
+@font-face {
+    font-family: arabic;
+    src: url(/font-arabic/Droid\ Sans\ Arabic.ttf);
+    
+}
+
+@font-face{
+    font-family: kufi;
+    src: url(/font-arabic/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+.logo{
+    background-color: #000;
+}
+.logo h1{
+    font-size: 32px;
+    font-family: arabic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #ffff00;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    background-color: #38333a;
+    color: white;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+}
+#acc{
+    color: #ffff00;
+}
+.why{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 310px;
+}
+.why li{
+    margin: 0 30px;
+    font-size: 18px;
+    font-family: font;
+    font-weight: 400;
+    font-size: 18px;
+}
+.ta3lim h1{
+    font-family: kufi;
+    font-weight: 700;
+    font-size: 42px;
+}
+.ta3lim p, .ta3lim li{
+    font-family: font;
+    font-size:20px ;
+}
+.sub-about{
+    display: none;
+}
+.sub-about li{
+    padding: 2px;
+}
+ul li:hover .sub-about{
+    display: block;
+    position: absolute; 
+    height: auto;
+    z-index: 900;   
+    
+}
+
+i{
+    font-size: 16px;
+}
+
+nav{
+    margin-bottom: 40px;
+}
+/* finisiih navbar*/
+#font{
+    position: relative;
+}
+.font-ta3lim{
+    position: absolute;
+    bottom: 50px;
+}
+.container-ta3lim{
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: 500px auto;
+    gap: 40px;
+}
+.ta3lim{
+    height: 500px;
+    padding: 20px;
+}
+
+.ta3lim h1 , .post h1{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.post h1 , .post p{
+    text-align: right;
+}
+.ta3lim p .post p{
+    font-size: 38px;
+}
+
+
+.recent-post{
+    margin: 0 100px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-column-gap: 20px;
+}
+
+.post button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: darkblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    background-image: url(/maktab/img/SECURITY.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.post {
+    position: relative;
+    padding: 20px;
+    height: 400px;
+}
+#news {
+    text-align: center;
+    margin-top: 40px;
+}
+#post1{
+    height: 600px;
+}
+#post2{
+    height: 600px;
+    border: 1px solid #001;
+    box-shadow: #001;
+}
+
+.flex-font{
+    position: absolute;
+    right: 199px;
+}
+
+.flex-font h3:hover{
+    color: #056493;
+    cursor: pointer;
+}
+.one , .textFloat{
+    text-align: right;
+    height: 200px;
+}
+.flex-font a{
+    color: black;
+}
+.textFloat {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+.one{
+    border-bottom: 2px solid #001;
+}
+
+.one img{
+    cursor: pointer;
+}
+.flex-icon{
+    display: flex;
+    color: #0e5735;
+    position: absolute;
+    right: 199px;
+}
+.textFloat p{
+    color: #0e5735;
+    text-transform: uppercase;
+    font-style: bold;
+}
+.textFloat h3{
+    width: 500px;
+    font-size: 18px;
+    font-family: kufi;
+
+}
+.flex-icon i{
+    color: black;
+    margin-left: 10px;
+}
+#three{
+    border: none;
+}
+
+
+.image img{
+    float: right;
+    width: 200px;
+}
+.two{
+    clear: both;
+}
+
+.button{
+    margin-left: 190px;
+}
+
+.button button{
+    padding: 12px;
+    color: white;
+    background-color: #0e5735;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.comments textarea{
+    height: 400px;
+}
+
+.ta3lim ul{
+    padding: 10px 40px;
+}
